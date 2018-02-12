@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GMView_Example' do
+  pod 'GMView', :path => '../'
+
+  target 'GMView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
