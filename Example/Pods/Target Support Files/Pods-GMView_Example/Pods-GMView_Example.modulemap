@@ -1,0 +1,6 @@
+framework module Pods_GMView_Example {
+  umbrella header "Pods-GMView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
