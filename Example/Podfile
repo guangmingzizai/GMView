@@ -2,6 +2,9 @@ use_frameworks!
 
 target 'GMView_Example' do
   pod 'GMView', :path => '../'
+  pod 'SnapKit', '~> 4.0.0'
+  pod 'FlexLayout'
+  pod 'PinLayout'
 
   target 'GMView_Tests' do
     inherit! :search_paths

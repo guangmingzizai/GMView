@@ -14,6 +14,11 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		66D87DAE9F53656F4DC89991 /* Pods_GMView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5AD69AD995651F3ABE48DB /* Pods_GMView_Tests.framework */; };
+		6CF7AF722081FF60000283E5 /* Cocoa+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF7AF712081FF60000283E5 /* Cocoa+Extension.swift */; };
+		6CF7AF74208201CF000283E5 /* CocoaTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF7AF73208201CF000283E5 /* CocoaTarget.swift */; };
+		6CF7AF7620820856000283E5 /* FullscreenTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF7AF7520820856000283E5 /* FullscreenTipView.swift */; };
+		6CF7AF7820820974000283E5 /* UIFont+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF7AF7720820974000283E5 /* UIFont+App.swift */; };
+		6CF7AF7A20820997000283E5 /* StyleSheetUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF7AF7920820997000283E5 /* StyleSheetUtility.swift */; };
 		D8D83F988FE72CAE4901D3C0 /* Pods_GMView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A5D6F60363C12E563D721FC /* Pods_GMView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +34,10 @@
 
 /* Begin PBXFileReference section */
 		0D42A8E404DA162DE00027FE /* Pods-GMView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMView_Example/Pods-GMView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1884806CB9F1CBAA83AB9D7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1884806CB9F1CBAA83AB9D7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1A5D6F60363C12E563D721FC /* Pods_GMView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5EE183602B859B7C457AC7 /* Pods-GMView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMView_Tests/Pods-GMView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1D45615868CB0DFE70F04F52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1D45615868CB0DFE70F04F52 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GMView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +48,12 @@
 		607FACE51AFB9204008FA782 /* GMView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8D2087AF4C4F547C912CFA70 /* GMView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GMView.podspec; path = ../GMView.podspec; sourceTree = "<group>"; };
+		6CF7AF712081FF60000283E5 /* Cocoa+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cocoa+Extension.swift"; sourceTree = "<group>"; };
+		6CF7AF73208201CF000283E5 /* CocoaTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTarget.swift; sourceTree = "<group>"; };
+		6CF7AF7520820856000283E5 /* FullscreenTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenTipView.swift; sourceTree = "<group>"; };
+		6CF7AF7720820974000283E5 /* UIFont+App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+App.swift"; sourceTree = "<group>"; };
+		6CF7AF7920820997000283E5 /* StyleSheetUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleSheetUtility.swift; sourceTree = "<group>"; };
+		8D2087AF4C4F547C912CFA70 /* GMView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GMView.podspec; path = ../GMView.podspec; sourceTree = "<group>"; };
 		C65090ECB262EA9A36C8C8FD /* Pods-GMView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GMView_Example/Pods-GMView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FB5AD69AD995651F3ABE48DB /* Pods_GMView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6BCA811958E7BC59BC1442 /* Pods-GMView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GMView_Tests/Pods-GMView_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +114,11 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				6CF7AF712081FF60000283E5 /* Cocoa+Extension.swift */,
+				6CF7AF73208201CF000283E5 /* CocoaTarget.swift */,
+				6CF7AF7720820974000283E5 /* UIFont+App.swift */,
+				6CF7AF7920820997000283E5 /* StyleSheetUtility.swift */,
+				6CF7AF7520820856000283E5 /* FullscreenTipView.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -289,11 +304,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GMView_Example/Pods-GMView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/GMView/GMView.framework",
+				"${BUILT_PRODUCTS_DIR}/PinLayout/PinLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlexLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GMView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,8 +391,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF7AF74208201CF000283E5 /* CocoaTarget.swift in Sources */,
+				6CF7AF722081FF60000283E5 /* Cocoa+Extension.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				6CF7AF7A20820997000283E5 /* StyleSheetUtility.swift in Sources */,
+				6CF7AF7820820974000283E5 /* UIFont+App.swift in Sources */,
+				6CF7AF7620820856000283E5 /* FullscreenTipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
