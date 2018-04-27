@@ -52,9 +52,9 @@ open class GMView: UIView {
      */
     public var hitTestEdgeInsets: UIEdgeInsets = .zero
     
-    convenience init(inset: UIEdgeInsets) {
+    public convenience init(hitTestEdgeInsets: UIEdgeInsets) {
         self.init()
-        self.hitTestEdgeInsets = inset
+        self.hitTestEdgeInsets = hitTestEdgeInsets
     }
     
     open override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {

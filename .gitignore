@@ -20,6 +20,7 @@ DerivedData
 *.ipa
 Example/GMView.xcodeproj/project.xcworkspace/xcshareddata/
 Example/GMView.xcworkspace/xcshareddata/
+Example/Pods
 
 # Bundler
 .bundle
