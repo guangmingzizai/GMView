@@ -52,6 +52,11 @@ open class GMView: UIView {
      */
     public var hitTestEdgeInsets: UIEdgeInsets = .zero
     
+    convenience init(inset: UIEdgeInsets) {
+        self.init()
+        self.hitTestEdgeInsets = inset
+    }
+    
     open override func hitTest(_ point: CGPoint, with event: UIEvent?) -> UIView? {
         let canReceiveTouchEvents = (isUserInteractionEnabled && !isHidden)
         if !canReceiveTouchEvents {
