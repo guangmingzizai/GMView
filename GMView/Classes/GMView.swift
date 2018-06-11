@@ -47,6 +47,18 @@ open class GMView: UIView {
     public var borderBottomWidth: CGFloat = -1
     public var borderRightWidth: CGFloat = -1
     
+    private var _backgroundColor: UIColor?
+    
+    public override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        _backgroundColor = super.backgroundColor
+    }
+    
+    required public init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     /**
      *  Insets used when hit testing inside this view.
      */
@@ -109,6 +121,8 @@ open class GMView: UIView {
     
     open override var backgroundColor: UIColor? {
         didSet {
+            guard _backgroundColor != backgroundColor else { return }
+            _backgroundColor = backgroundColor
             layer.setNeedsDisplay()
         }
     }
@@ -219,7 +233,7 @@ open class GMView: UIView {
             layer.cornerRadius = cornerRadii.topLeft
             layer.borderColor = borderColors.left
             layer.borderWidth = borderInsets.left
-            layer.backgroundColor = backgroundColor?.cgColor
+            layer.backgroundColor = _backgroundColor?.cgColor
             layer.contents = nil
             layer.needsDisplayOnBoundsChange = false
             layer.mask = nil
@@ -234,7 +248,7 @@ open class GMView: UIView {
             cornerRadii: cornerRadii,
             borderInsets: borderInsets,
             borderColors: borderColors,
-            backgroundColor: backgroundColor?.cgColor ?? UIColor.clear.cgColor,
+            backgroundColor: _backgroundColor?.cgColor ?? UIColor.clear.cgColor,
             drawToEdge: clipsToBounds
         ) else {
             layer.contents = nil

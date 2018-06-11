@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		66D87DAE9F53656F4DC89991 /* Pods_GMView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB5AD69AD995651F3ABE48DB /* Pods_GMView_Tests.framework */; };
+		6CAB660D20CE26A100C889B9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAB660C20CE26A100C889B9 /* UIColorExtension.swift */; };
 		6CF7AF722081FF60000283E5 /* Cocoa+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF7AF712081FF60000283E5 /* Cocoa+Extension.swift */; };
 		6CF7AF74208201CF000283E5 /* CocoaTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF7AF73208201CF000283E5 /* CocoaTarget.swift */; };
 		6CF7AF7620820856000283E5 /* FullscreenTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF7AF7520820856000283E5 /* FullscreenTipView.swift */; };
@@ -48,6 +49,7 @@
 		607FACE51AFB9204008FA782 /* GMView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6CAB660C20CE26A100C889B9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		6CF7AF712081FF60000283E5 /* Cocoa+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cocoa+Extension.swift"; sourceTree = "<group>"; };
 		6CF7AF73208201CF000283E5 /* CocoaTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaTarget.swift; sourceTree = "<group>"; };
 		6CF7AF7520820856000283E5 /* FullscreenTipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenTipView.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				6CF7AF712081FF60000283E5 /* Cocoa+Extension.swift */,
+				6CAB660C20CE26A100C889B9 /* UIColorExtension.swift */,
 				6CF7AF73208201CF000283E5 /* CocoaTarget.swift */,
 				6CF7AF7720820974000283E5 /* UIFont+App.swift */,
 				6CF7AF7920820997000283E5 /* StyleSheetUtility.swift */,
@@ -394,6 +397,7 @@
 				6CF7AF74208201CF000283E5 /* CocoaTarget.swift in Sources */,
 				6CF7AF722081FF60000283E5 /* Cocoa+Extension.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				6CAB660D20CE26A100C889B9 /* UIColorExtension.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				6CF7AF7A20820997000283E5 /* StyleSheetUtility.swift in Sources */,
 				6CF7AF7820820974000283E5 /* UIFont+App.swift in Sources */,

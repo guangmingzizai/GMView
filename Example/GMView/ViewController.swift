@@ -17,12 +17,13 @@ class ViewController: UIViewController {
         
         view.backgroundColor = UIColor.red
         
-        addLightBoxButton()
+//        addLightBoxButton()
+        addGMView()
     }
     
     private func addGMView() {
         let roundedCornerView = GMView(frame: .zero)
-        roundedCornerView.backgroundColor = UIColor.red
+        roundedCornerView.backgroundColor = UIColor("#F7F8FF")
         roundedCornerView.borderTopLeftRadius = 0
         roundedCornerView.borderTopRightRadius = 16
         roundedCornerView.borderBottomLeftRadius = 16
