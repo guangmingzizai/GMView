@@ -170,6 +170,21 @@ open class GMView: UIView {
         )
     }
     
+    public func setCorner(roundingCorners: UIRectCorner, cornerRadius: CGFloat) {
+        if roundingCorners.contains(.topLeft) {
+            borderTopLeftRadius = cornerRadius
+        }
+        if roundingCorners.contains(.topRight) {
+            borderTopRightRadius = cornerRadius
+        }
+        if roundingCorners.contains(.bottomLeft) {
+            borderBottomLeftRadius = cornerRadius
+        }
+        if roundingCorners.contains(.bottomRight) {
+            borderBottomRightRadius = cornerRadius
+        }
+    }
+    
     private func updateShadowPathForView(_ view: GMView) {
         if layer.hasShadow {
             if let backgroundColor = backgroundColor, backgroundColor.cgColor.alpha > 0.999 {
