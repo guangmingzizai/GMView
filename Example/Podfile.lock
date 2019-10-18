@@ -10,9 +10,15 @@ DEPENDENCIES:
   - PinLayout
   - SnapKit (~> 4.0.0)
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FlexLayout
+    - PinLayout
+    - SnapKit
+
 EXTERNAL SOURCES:
   GMView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   FlexLayout: 8cfa915850eab120c3d89c3b8b02e3aca96de554
@@ -20,6 +26,6 @@ SPEC CHECKSUMS:
   PinLayout: b2ebf8622b28e82b6e1216ab4e4a0a8d082214fe
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: 99d1b1b7a70dc3e6a2679ccdcd7c086b63894334
+PODFILE CHECKSUM: d633c2a3e0cb3930d386dd2ef7dbb25d89dee31f
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.8.4
